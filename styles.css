@@ -249,4 +249,8 @@ h2 {
   text-align: left;
 }
 
+#progress{
+  transition: width 0.5s ease 0.1s 
+}
+
 

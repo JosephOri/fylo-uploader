@@ -59,7 +59,7 @@ const addFile = (name, size) => {
 
 const onFileInputChange = (e) => {
   const fileName = e.value.split('\\').pop();
-  const isValidFile = new RegExp('(.(gif|jpeg|jpg|png|svg|ico))').test(
+  const isValidFile = new RegExp('(.(gif|jpeg|jpg|png|svg|ico|jfif))').test(
     fileName
   );
   if (isValidFile) {
